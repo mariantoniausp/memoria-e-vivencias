@@ -1,0 +1,306 @@
+.container {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+}
+
+.secao_textos {
+  /* background-color: hotpink; */
+  margin: 6rem 0;
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box_foto_extra {
+  /* background-color: blueviolet; */
+  width: 40%;
+  margin: 0 1rem;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.box_foto {
+  /* background-color: red; */
+  min-width: 400px; 
+  width: 40%;
+  margin: 0 1rem;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.box_foto img {
+  min-width: 400px; 
+  width: 100%;
+  object-fit: contain;
+}
+
+.box_chamada {
+  /* background-color: yellowgreen; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  margin: 0 1rem;
+  /* min-width: 450px; */
+}
+
+.secao-2-carrossel {
+  /* background-color: red; */
+  flex-wrap: wrap;
+  /* margin: 2rem 0; */
+
+  padding: 6rem 10rem;
+}
+
+.center.slider {
+  /* background-color: aqua; */
+  width: 80vw;
+} 
+
+.secao-2-carrossel.pag-depoimentos {
+  /* background-color: yellowgreen; */
+  flex-wrap: wrap;
+  padding: initial;
+  margin: 2rem 0;
+}
+
+.secao-video {
+  width: 100vw;
+  /* background-color: violet; */
+  margin: 2rem 0;
+  padding: 0 6rem;
+  display: flex;  
+  justify-content: center;
+
+}
+
+.youtube-video {
+  width: 560px;
+  height: 315px;
+}
+
+.box-videoplayer {
+  /* background-color: green; */
+  /* justify-content: flex-start; */
+}
+
+
+
+
+
+.box-texto {
+  /* background-color: hotpink; */
+  text-align: justify;
+  margin-left: 3rem;
+  height: 315px;
+  overflow: scroll;
+  overflow-x: hidden; 
+  min-width: 200px;
+  /* max-width: 500px; */
+}
+
+.box-texto h2 {
+  font-size: 20px;
+  margin: initial;
+  margin-bottom: 1rem;
+}
+
+
+
+.secao-fotografia {
+  background-image: url("../imagens/fachada2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 52vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto_carrossel {
+  /* background-color: aqua; */
+  text-align: center;
+  margin-bottom: 2rem;
+  /* align-self: flex-end; */
+}
+
+.texto_carrossel h2{
+  margin-top: 0;
+  /* font-size: 52px; */
+  /* min-width: 450px; */
+
+}
+
+.foto_2 {
+  background-image: url("../imagens/batalha.jpg");
+  height: 90vh;
+}
+
+.secao_extra {
+  justify-content:end;
+  height: 60vh;
+}
+
+.secao_extra {
+  background-image: url("../icones/rascunho_predio.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.chamada_2 h2, .chamada_2 h3 {
+  background-color: white;
+}
+
+.ficha_tecnica {
+  overflow: hidden;
+}
+
+.round_background {
+  width: 200%;
+  height: 100%;
+  border-radius: 50% 50% 0 0 ;
+  background-color: #9e6823;
+  left: -50%;
+  right: 0;
+  position: relative;
+}
+
+.ficha_tecnica .container {
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.ficha_tecnica h2 {
+  font-size: 1.5rem;
+  margin-top: 5rem;
+}
+
+.ficha_tecnica  ul {
+  /* background-color: purple; */
+  width: 30%;
+  text-align: center;
+  margin: 3rem 0;
+
+}
+
+.creditos {
+  /* background-color: yellowgreen; */
+  display: flex;
+  width: 80vw;
+  justify-content: space-around;
+  margin-bottom: 6rem;
+  /* flex-wrap: wrap; */
+}
+
+
+
+
+/* Responsivo para Tablets */
+@media screen and (max-width:768px) {
+  
+  .secao-2-carrossel {
+    /* background-color: blue; */
+    flex-wrap: wrap;
+    padding: 6rem 5rem;
+  }
+  
+  .foto_2 {
+    background-image: url("../imagens/batalha.jpg");
+    height: 70vh;
+  }
+
+  .creditos {
+    /* background-color: red; */
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .creditos ul {
+    /* background-color: cadetblue; */
+    width: initial;
+    margin: 1rem;
+  }
+
+  .ficha_tecnica h3 {
+    width: 80vw;
+    text-align: center;
+  }
+
+  .box_foto_extra {
+    /* background-color: blueviolet; */
+    width: initial;
+  }
+
+  .box_chamada {
+    /* background-color: green; */
+    width: 70vw;
+  }
+
+  .box_foto {
+    /* background-color: red; */
+    min-width: initial;
+    width: initial;
+  }
+  
+  .box_foto img {
+    min-width: initial;
+  }
+
+  .secao_textos {
+    /* background-color: red; */
+    margin: 3rem 0;
+  }
+
+  .ficha_tecnica h2 {
+    font-size: 1.5rem;
+  }  
+
+  .foto_2 {
+    /* margin-left: -50%; */
+  }
+}
+
+
+/* para ajustar o tamanho do vídeo dos depoimentos  */
+@media screen and (max-width: 900px) {
+  
+  .youtube-video {
+    /* width: 560px; */
+    width: 80vw;
+    height: 315px; 
+    margin-top: 2rem;
+
+  }
+  
+  .secao-video {
+    /* width: 100vw; */
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    margin: initial;
+    padding: initial;
+
+  }
+
+  .box-texto {
+    /* margin-top: 2rem; */
+    width: 80vw;
+    margin-top: 1rem;
+    /* padding: 0 2rem; */
+    /* background-color: tomato; */
+
+    margin-left: initial;
+    height: initial;
+    overflow: initial;
+    overflow-x: initial; 
+    min-width: initial;
+
+  }
+  
+}

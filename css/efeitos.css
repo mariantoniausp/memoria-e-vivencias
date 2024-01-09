@@ -1,0 +1,22 @@
+
+/* Responsivo para Desktop */
+@media screen and (min-width:769px) {
+  .box_foto {
+    transition: 1s;
+  }
+  
+  .box_foto:hover {
+    transform: scale(1.02);
+    transition: all ease-in-out 1s;
+  }
+  
+  #logo-expo {
+    transition: 3s;
+  }
+  
+  #logo-expo:hover {
+    transform: scale(1.03);
+    transition: all ease-in-out 3s;
+  }
+  
+}

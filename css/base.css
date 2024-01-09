@@ -1,0 +1,54 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;;
+  font-weight: 700;
+  font-size: 15px;      
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+h5 {
+  font-weight: 200;
+}
+
+p {
+  font-weight: 200;
+}
+
+span {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.botao-padrao {
+  background-color: #bf894c;
+  /* width: 200px; */
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
